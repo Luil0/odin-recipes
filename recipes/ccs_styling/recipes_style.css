@@ -1,0 +1,55 @@
+div.example {
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-size: 300px 60px;
+}
+
+body {  
+    background-color: black;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 { 
+    color: white;   
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center ;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+ul{
+
+    color: white;
+    list-style: inside;
+    text-align: center;
+}
+div.steps {
+    text-align: center;
+}
+ol {
+    color: white;
+    display: inline-block;
+    text-align: left;
+
+
+}
