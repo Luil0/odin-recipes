@@ -1,55 +1,64 @@
-div.example {
-    background-color: red;
-    font-size: 32px;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-    background-size: 300px 60px;
-}
+
 
 body {  
     background-color: black;
     text-align: center;
+
 }
 
 
 h1 {
-    color: white;
+   
     text-align: center;
+    font-size: 55px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url("glow.jpg");
+    color: transparent;
 }
 
 h2 { 
     color: white;   
     text-align: center;
+    font-size: 40px;
 }
 
 h3 {
     color: white;
     text-align: center ;
+    font-size: 38px;
 }
 
 p {
     color: white;
     text-align: center;
+    font-size: 21px;
 }
 
 img {
     text-align: center;
 }
 
-ul{
-
-    color: white;
-    list-style: inside;
-    text-align: center;
-}
-div.steps {
-    text-align: center;
-}
-ol {
-    color: white;
-    display: inline-block;
+#list {
+    list-style-position: outside;
     text-align: left;
+    display: inline-block;
+    color: white;
+    font-size: 21px;
+    margin-inline: 10px;   
+}
+
+div.steps {
+    
+    list-style-position: inside;
+    text-align: center;
+    font-size: 21px;
+    display: inline-block;
+}
+    
+ol {
+    
+    color: white;
 
 
 }

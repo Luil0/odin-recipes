@@ -3,10 +3,13 @@ h1 {
     color: darkorange;
 }
 
-div.recipe_gif {
+#recipe_pic {
     text-align: center;
+
 }
-img {
-    align-items: baseline;
+
+.recipe_chicken_wing {
+    text-align: center;
+    font-size: 30px;
 }
 
